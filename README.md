@@ -2,7 +2,7 @@
 - 👀 I’m interested in computer vision and 3d vision
 - 🌱 I’m currently learning to nerf related works
 - 📫 How to reach me mingqian@whu.edu.cn
-- I'm a PhD student in Wuhan University. you can see my [web here](https://qianmingduowan.github.io/mqian.github.io/) .
+- I'm a PhD student in Wuhan University. you can see my [web here](https://qianmingduowan.github.io) .
 
 <!---
 qianmingduowan/qianmingduowan is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
