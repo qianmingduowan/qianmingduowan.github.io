@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # 读取照片
-image = cv2.imread('images/portrait.jpg')
+image = cv2.imread('images/portrait.jpeg')
 
 # 获取照片的宽度和高度
 height, width = image.shape[:2]
