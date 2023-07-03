@@ -134,6 +134,52 @@
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='mira_image'>
+                  <img src='images/D-DFFNet/after.jpeg' width="160"></div>
+                <img src='images/D-DFFNet/before.jpeg' width="160">
+              </div>
+              <script type="text/javascript">
+                function mira_start() {
+                  document.getElementById('mira_image').style.opacity = "1";
+                }
+
+                function mira_stop() {
+                  document.getElementById('mira_image').style.opacity = "0";
+                }
+                mira_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://github.com/yuxinjin-whu/D-DFFNet">
+                <papertitle>Depth and DOF Cues Make Better Defocus Blur Detection</papertitle>
+              </a>
+              <br>
+              Yuxin Jin,
+              <strong>Ming Qian</strong>,
+              Jincheng Xiong, 
+              <a href="https://xuenan.net/">Nan Xue</a>, 
+              <a href="https://scholar.google.com.hk/citations?user=SAUCVsEAAAAJ&hl">Gui-Song Xia</a>,
+              <br>
+              <em>ICME</em>, 2023
+              <br>
+              <a href="https://arxiv.org/abs/2306.11334">arXiv</a>
+              /
+              <!-- <a href="https://www.youtube.com/watch?v=fThKXZ6uDTk">video</a> -->
+              <!-- / -->
+              <a href="https://github.com/yuxinjin-whu/D-DFFNet">Code</a>
+              <p></p>
+              <p>
+                D-DFFNet considers the physical mechanism of defocus blur and successfully distinguishes homogeneous regions. 
+                In addition, we propose a larger benchmark EBD that includes more DOF cases. 
+                The results of detection on multiple public test sets look great.
+                <!-- NeRF lets us synthesize novel orthographic views that work well with pixel-wise algorithms for robotic manipulation. -->
+              </p>
+            </td>
+          </tr>		
+
+          <tr onmouseout="mira_stop()" onmouseover="mira_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='mira_image'>
                   <img src='images/bggan_before.jpg' width="160"></div>
                 <img src='images/bggan_after.jpg' width="160">
               </div>
