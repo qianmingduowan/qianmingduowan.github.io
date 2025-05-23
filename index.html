@@ -61,7 +61,7 @@
           <td style="padding:20px;width:100%;vertical-align:middle">
             <heading>News</heading>
             <p>
-              <strong>2025-05</strong> &nbsp;&nbsp;&nbsp;&nbsp; The paper Sat2Density++ is released.
+              <strong>2025-05</strong> &nbsp;&nbsp;&nbsp;&nbsp; The paper <a href="https://arxiv.org/abs/2505.17001">Sat2Density++</a> is released.
             </p>
             <p>
               <strong>2024-04</strong> &nbsp;&nbsp;&nbsp;&nbsp; Two papers are accepted by CVPR 2024.
@@ -91,15 +91,31 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-          <tr>
+          <tr onmouseout="sat2dnesitypp_stop()" onmouseover="sat2dnesitypp_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <img src=https://xuenan.net/assets/spotlights/mvacon.png width=160 >
+                <div class="two" id='sat2dnesitypp_image'>
+                  <video  style="width: 100%; height: 50%; object-fit: fill;" muted autoplay loop >
+                  <!--  -->
+                  <source src="images/sat2densitypp/save_street_only_vid_after.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <img src='images/sat2densitypp/sat_input_before.png' width=160 height=160 >
               </div>
+              <script type="text/javascript">
+                function sat2dnesitypp_start() {
+                  document.getElementById('sat2dnesitypp_image').style.opacity = "1";
+                }
+      
+                function sat2dnesitypp_stop() {
+                  document.getElementById('sat2dnesitypp_image').style.opacity = "0";
+                }
+                sat2dnesitypp_stop()
+              </script>
             </td>
             
             <td style="padding:20px;width:75%;vertical-align:middle">
-                <papertitle>Seeing through Satellite Images at Street Views </papertitle>
+                <papertitle><a href="https://arxiv.org/abs/2505.17001">Seeing through Satellite Images at Street Views (Sat2Density++)</a> </papertitle>
               <br>
               Ming Qian, Bin Tan, Qiuyu Wang, Xianwei Zheng, Hanjiang Xiong, Gui-Song Xia, Yujun Shen, Nan Xue
               <br>
